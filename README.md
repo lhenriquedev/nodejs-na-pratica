@@ -51,17 +51,20 @@ src/
 ### Passo a passo
 
 1. **Clone o repositório:**
+
 ```bash
 git clone <url-do-repositorio>
 cd rocketseat-node-na-pratica
 ```
 
 2. **Instale as dependências:**
+
 ```bash
 npm install
 ```
 
 3. **Configure o banco de dados:**
+
 ```bash
 # Inicie o PostgreSQL com Docker
 docker-compose up -d
@@ -74,12 +77,14 @@ npm run db:migrate
 ```
 
 4. **Crie o arquivo `.env`:**
+
 ```env
 DATABASE_URL=postgresql://postgres:postgres@localhost:5432/desafio
 NODE_ENV=development
 ```
 
 5. **Inicie o servidor de desenvolvimento:**
+
 ```bash
 npm run dev
 ```
@@ -91,9 +96,11 @@ A API estará disponível em `http://localhost:3333`
 ### Endpoints Disponíveis
 
 #### 📖 Documentação Interativa
+
 - **GET** `/docs` - Documentação da API com Scalar
 
 #### 🎯 Cursos
+
 - **GET** `/courses` - Lista todos os cursos
 - **GET** `/courses/:id` - Busca um curso por ID
 - **POST** `/courses` - Cria um novo curso
@@ -101,16 +108,19 @@ A API estará disponível em `http://localhost:3333`
 ### Exemplos de Uso
 
 #### Listar todos os cursos
+
 ```http
 GET http://localhost:3333/courses
 ```
 
 #### Buscar curso por ID
+
 ```http
 GET http://localhost:3333/courses/a2b3f3ef-45ae-4c78-92eb-5898af7a2fcf
 ```
 
 #### Criar um novo curso
+
 ```http
 POST http://localhost:3333/courses
 Content-Type: application/json

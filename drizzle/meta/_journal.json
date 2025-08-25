@@ -15,6 +15,27 @@
       "when": 1755640335130,
       "tag": "0001_faithful_jasper_sitwell",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755734631723,
+      "tag": "0002_chilly_onslaught",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1755734863379,
+      "tag": "0003_young_war_machine",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1755806559777,
+      "tag": "0004_cynical_penance",
+      "breakpoints": true
     }
   ]
 }
