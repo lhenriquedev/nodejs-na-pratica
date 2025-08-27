@@ -6,7 +6,7 @@ GET http://localhost:3333/courses
 http://localhost:3333/courses?orderBy=title
 
 ### Get Course by Id
-GET http://localhost:3333/courses/a2b3f3ef-45ae-4c78-92eb-5898af7a2fcf
+GET http://localhost:3333/courses/ff01f051-53de-4ae1-964c-3f1abee3b9fd
 
 ### Create a course
 POST http://localhost:3333/courses
